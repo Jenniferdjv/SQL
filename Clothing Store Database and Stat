@@ -1,0 +1,38 @@
+/** Clothing_Store:
+Socks (10)
+T-Shirts (32)
+Jeans (28)
+Shorts (20)
+Long Sleeve Shirts (40)
+Sweaters (34)
+Leggings (60)
+Cardigans (24)
+Baseball Caps (8)
+Fall Hats (8)
+Womens Boots (22)
+Casual Tanks (30)
+Pajama Pants (12)
+Pajama Shirts (12)
+Womens Sneakers (22)
+**/
+
+CREATE TABLE Clothing_Store (id integer primary key, name text, quanity integer, price integer);
+
+INSERT INTO Clothing_Store VALUES
+(1, 'Socks', 10, 10),
+(2, 'T-Shirts', 32, 8),
+(3, 'Jeans',28, 20),
+(4, 'Shorts', 20, 12),
+(5, 'Long Sleeve Shirts', 40, 15),
+(6, 'Sweaters', 34, 24),
+(7, 'Leggings', 60, 14),
+(8, 'Cardigans', 24, 35),
+(9, 'Baseball Caps', 8, 18),
+(10, 'Fall Hats', 8, 17),
+(11, 'Womens Boots', 22, 44),
+(12, 'Casual tanks', 30, 18),
+(13, 'Pajama Pants', 12, 26),
+(14, 'Pajama Shirts', 12, 14),
+(15, 'Womens Sneakers', 22, 40)
+;
+SELECT * FROM Clothing_Store ORDER BY price asc;
